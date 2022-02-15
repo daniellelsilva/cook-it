@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/cook-it/static/css/main.7f12ed89.css",
-    "main.js": "/cook-it/static/js/main.f27f0c38.js",
+    "main.css": "/cook-it/static/css/main.71055ff3.css",
+    "main.js": "/cook-it/static/js/main.116dfffa.js",
     "static/media/nina-mercado-CnrDuY0tFrg-unsplash.jpg": "/cook-it/static/media/nina-mercado-CnrDuY0tFrg-unsplash.669a46724452ea472875.jpg",
+    "static/media/pexels-vlada-karpovich-6947188.jpg": "/cook-it/static/media/pexels-vlada-karpovich-6947188.c1db2f4bfb9a7033da8b.jpg",
     "static/media/rodion-kutsaev-EPwuZxdketc-unsplash.jpg": "/cook-it/static/media/rodion-kutsaev-EPwuZxdketc-unsplash.35eaa88b00f26e823c97.jpg",
     "static/media/pexels-pixabay-414916.jpg": "/cook-it/static/media/pexels-pixabay-414916.803bbc4b9361cef7e7cb.jpg",
     "static/media/cristina-anne-costello-4jsmBl30x_A-unsplash.jpg": "/cook-it/static/media/cristina-anne-costello-4jsmBl30x_A-unsplash.c4df19a8a1cbd0eb3c0c.jpg",
@@ -14,11 +15,11 @@
     "static/media/Design sem nome.png": "/cook-it/static/media/Design sem nome.3ef82f4de2ff73f381d6.png",
     "static/media/2.svg": "/cook-it/static/media/2.957beeba6375f8f6e667c503d6aef6f4.svg",
     "index.html": "/cook-it/index.html",
-    "main.7f12ed89.css.map": "/cook-it/static/css/main.7f12ed89.css.map",
-    "main.f27f0c38.js.map": "/cook-it/static/js/main.f27f0c38.js.map"
+    "main.71055ff3.css.map": "/cook-it/static/css/main.71055ff3.css.map",
+    "main.116dfffa.js.map": "/cook-it/static/js/main.116dfffa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f12ed89.css",
-    "static/js/main.f27f0c38.js"
+    "static/css/main.71055ff3.css",
+    "static/js/main.116dfffa.js"
   ]
 }
