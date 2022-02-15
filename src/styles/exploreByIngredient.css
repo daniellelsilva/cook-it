@@ -1,0 +1,58 @@
+.ingredient-container {
+  background-color: var(--background-color);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 8%;
+  padding-bottom: 20%;
+  width: 100%;
+}
+
+.ingredient-individual {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  margin: 4%;
+  width: 40%;
+}
+
+.ingredient-img {
+  width: 60%;
+}
+
+
+@media (min-width: 600px) {
+  .ingredient-container {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    width: 80%;
+  }
+
+  .ingredient-individual {
+    width: 20%;
+  }
+  
+  .ingredient-img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ingredient-container {
+    width: 70%;
+  }
+
+  .ingredient-individual {
+    font-size: 1rem;
+    margin: 1.5%;
+    width: 15%;
+  }
+  
+  .ingredient-img {
+    width: 60%;
+  }
+}

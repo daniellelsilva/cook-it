@@ -1,0 +1,50 @@
+.header-container {
+  align-items: center;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2%;
+  max-width: 100%;
+}
+
+.header-icons-and-title {
+  align-items: center;
+  color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.header-icons-and-title button {
+  background-color: transparent;
+  border: none;
+}
+
+.header-title {
+  color: var(--green-title);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+.bi-person-circle, .bi-search {
+  color: var(--green-title);
+  font-size: 22px;
+  padding-top: 40px;
+}
+
+@media (min-width: 600px) {
+  .header-container {
+    margin: auto;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header-container  {
+    margin: auto;
+    width: 60%;
+  }
+}

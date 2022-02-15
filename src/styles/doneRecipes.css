@@ -1,0 +1,144 @@
+.done-filter-container {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 100%;
+}
+
+.done-filter-container button {
+  background-color: transparent;
+  border: 1px solid var(--green-title);
+  border-radius: 3px;
+  color: var(--green-title);
+  margin: 0;
+  margin-top: 5%;
+  padding: 1.5% 0;
+  width: 27%;
+}
+
+.done-filter-container button:focus {
+  background-color: var(--green-title);
+  color: white;
+}
+
+.done-recipe-container {
+  background-color: var(--background-color);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  height: 100%;
+  padding-bottom: 8%;
+  width: 100%;
+}
+
+.individual-done-recipe-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 45%;
+  max-height: 50%;
+  margin-top: 8%;
+  width: 45%;
+}
+
+.done-recipe-img {
+  border-radius: 8px 8px 0 0 ;
+  width: 100%;
+}
+
+.done-recipe-content {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 8%;
+  width: 95%;
+}
+
+.done-recipe-title {
+  color: var(--title-color);
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.2rem;
+  margin-top: 8%;
+  width: 45%;
+}
+
+.done-recipe-title, .done-share-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.done-natio-tag {
+  margin-top: 0.4em;
+}
+
+.done-category {
+  margin-bottom: 0;
+}
+
+.done-natio-tag p, .done-share-date-container p{
+  font-size: 0.8em;
+}
+
+.done-share-date-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-left: 6%;
+}
+
+@media (min-width: 600px) {
+  .done-filter-container {
+    margin: auto;
+    width: 80%;
+  }
+  
+  .done-filter-container button {
+    padding: 1% 0;
+    width: 25%;
+  }
+
+  .individual-done-recipe-container {
+    width: 20%;
+  }
+  
+  .done-recipe-title {
+    font-size: 1.2rem;
+    margin-top: 8%;
+    width: 40%;
+  }
+  
+  .done-natio-tag p {
+    font-size: .9rem;
+    margin-top: .4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .done-recipe-container {
+    height: 100%;
+    padding-bottom: 8%;
+    margin: auto;
+    width: 80%;
+  }
+
+  .done-filter-container {
+    width: 75%;
+  }
+
+  .done-filter-container button {
+    padding: 1% 0;
+    width: 20%;
+  }
+
+  .individual-done-recipe-container {
+    width: 20%;
+  }
+  
+  .done-natio-tag p {
+    font-size: 1rem;
+  }
+}

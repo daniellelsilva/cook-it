@@ -1,0 +1,85 @@
+.login{
+  align-items: center;
+  background-color: var(--background-color);
+  background-image: url('../images/Design\ sem\ nome.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container{
+  background-color: var(--background-color);
+  box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2), 0 .6rem 2rem 0 rgba(0, 0, 0, 0.19);
+  border-radius: .8rem;
+  padding: 15%;
+  width: 75%;
+}
+
+.login-container, form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+}
+
+form input{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--green-title);
+  font-size: 1rem;
+  height: 2.3rem;
+  margin-top: 8%;
+}
+
+form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px var(--background-color) inset;
+}
+
+form input:focus {
+  border-bottom: 3px solid var(--green-title);
+  outline: none;
+  
+}
+
+form button {
+  background-color: var(--green-title);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 15%;
+  padding: 1%;
+  width: 100%;
+}
+
+form button:disabled {
+  background-color: rgb(199, 204, 188);
+}
+
+@media (min-width: 600px) {
+  .login {
+    background-color: aliceblue;
+    background-image: none;
+  }
+  .login-container {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .login {
+    background-color: aliceblue;
+    background-image: none;
+  }
+
+  .login-container {
+    height: 90vh;
+    width: 50%;
+  }
+}
