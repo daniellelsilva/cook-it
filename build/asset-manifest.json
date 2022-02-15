@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cook-it/static/css/main.7f12ed89.css",
+    "main.js": "/cook-it/static/js/main.f27f0c38.js",
+    "static/media/nina-mercado-CnrDuY0tFrg-unsplash.jpg": "/cook-it/static/media/nina-mercado-CnrDuY0tFrg-unsplash.669a46724452ea472875.jpg",
+    "static/media/rodion-kutsaev-EPwuZxdketc-unsplash.jpg": "/cook-it/static/media/rodion-kutsaev-EPwuZxdketc-unsplash.35eaa88b00f26e823c97.jpg",
+    "static/media/pexels-pixabay-414916.jpg": "/cook-it/static/media/pexels-pixabay-414916.803bbc4b9361cef7e7cb.jpg",
+    "static/media/cristina-anne-costello-4jsmBl30x_A-unsplash.jpg": "/cook-it/static/media/cristina-anne-costello-4jsmBl30x_A-unsplash.c4df19a8a1cbd0eb3c0c.jpg",
+    "static/media/nina-mercado-_qN6tmGjmtg-unsplash.jpg": "/cook-it/static/media/nina-mercado-_qN6tmGjmtg-unsplash.f43defd1b565b316ca14.jpg",
+    "static/media/sam-hojati-pb7oJwtNVU4-unsplash.jpg": "/cook-it/static/media/sam-hojati-pb7oJwtNVU4-unsplash.46b5b624d30f722055a8.jpg",
+    "static/media/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg": "/cook-it/static/media/joseph-gonzalez-zcUgjyqEwe8-unsplash.f2898f094385d4298a19.jpg",
+    "static/media/bootstrap-icons.woff?": "/cook-it/static/media/bootstrap-icons.4e80a14a205e5b6212ff.woff",
+    "static/media/bootstrap-icons.woff2?": "/cook-it/static/media/bootstrap-icons.1f592ce3089115f4c842.woff2",
+    "static/media/Design sem nome.png": "/cook-it/static/media/Design sem nome.3ef82f4de2ff73f381d6.png",
+    "static/media/2.svg": "/cook-it/static/media/2.957beeba6375f8f6e667c503d6aef6f4.svg",
+    "index.html": "/cook-it/index.html",
+    "main.7f12ed89.css.map": "/cook-it/static/css/main.7f12ed89.css.map",
+    "main.f27f0c38.js.map": "/cook-it/static/js/main.f27f0c38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f12ed89.css",
+    "static/js/main.f27f0c38.js"
+  ]
+}

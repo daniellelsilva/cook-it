@@ -1,6 +1,5 @@
 .login{
   align-items: center;
-  background-color: var(--background-color);
   background-image: url('../images/Design\ sem\ nome.png');
   background-size: cover;
   display: flex;
@@ -64,22 +63,77 @@ form button:disabled {
 
 @media (min-width: 600px) {
   .login {
-    background-color: aliceblue;
-    background-image: none;
+    background-image: url('../images/pexels-vlada-karpovich-6947188.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
   }
+
   .login-container {
-    width: 65%;
+    background-color: rgba(255, 255, 250, 0.9);
+    border-radius: 0;
+    height: 100%;
+    width: 70%;
+    position: relative;
+
+    clip-path: polygon(0 0, 85% 0, 95% 100%, 0% 100%);
+  }
+
+  .login-box {
+    position: absolute;
+    top:47%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+  }
+  
+  form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--green-title);
+    font-size: .9rem;
+    height: 2.3rem;
+    margin-top: 8%;
+  }
+  
+  form button {
+    width: 100%;
   }
 }
 
 @media (min-width: 1000px) {
   .login {
-    background-color: aliceblue;
-    background-image: none;
+    background-image: url('../images/pexels-vlada-karpovich-6947188.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-start;
   }
 
   .login-container {
-    height: 90vh;
-    width: 50%;
+    background-color: rgba(255, 255, 250, 0.9);
+    border-radius: 0;
+    height: 100%;
+    width: 70%;
+    position: relative;
+
+    clip-path: polygon(0 0, 70% 0, 80% 100%, 0% 100%);
+  }
+
+  .login-box {
+    position: absolute;
+    top:47%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 20%;
+  }
+  
+  form {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  form input{
+    width: 100%;
   }
 }
