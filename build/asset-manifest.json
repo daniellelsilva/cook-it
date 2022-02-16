@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cook-it/static/css/main.71055ff3.css",
-    "main.js": "/cook-it/static/js/main.116dfffa.js",
+    "main.css": "/cook-it/static/css/main.afed935c.css",
+    "main.js": "/cook-it/static/js/main.897cd4be.js",
     "static/media/nina-mercado-CnrDuY0tFrg-unsplash.jpg": "/cook-it/static/media/nina-mercado-CnrDuY0tFrg-unsplash.669a46724452ea472875.jpg",
     "static/media/pexels-vlada-karpovich-6947188.jpg": "/cook-it/static/media/pexels-vlada-karpovich-6947188.c1db2f4bfb9a7033da8b.jpg",
     "static/media/rodion-kutsaev-EPwuZxdketc-unsplash.jpg": "/cook-it/static/media/rodion-kutsaev-EPwuZxdketc-unsplash.35eaa88b00f26e823c97.jpg",
@@ -15,11 +15,11 @@
     "static/media/Design sem nome.png": "/cook-it/static/media/Design sem nome.3ef82f4de2ff73f381d6.png",
     "static/media/2.svg": "/cook-it/static/media/2.957beeba6375f8f6e667c503d6aef6f4.svg",
     "index.html": "/cook-it/index.html",
-    "main.71055ff3.css.map": "/cook-it/static/css/main.71055ff3.css.map",
-    "main.116dfffa.js.map": "/cook-it/static/js/main.116dfffa.js.map"
+    "main.afed935c.css.map": "/cook-it/static/css/main.afed935c.css.map",
+    "main.897cd4be.js.map": "/cook-it/static/js/main.897cd4be.js.map"
   },
   "entrypoints": [
-    "static/css/main.71055ff3.css",
-    "static/js/main.116dfffa.js"
+    "static/css/main.afed935c.css",
+    "static/js/main.897cd4be.js"
   ]
 }
